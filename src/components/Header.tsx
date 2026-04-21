@@ -26,11 +26,8 @@ export default function Header({ scrolled, mobileMenuOpen, setMobileMenuOpen }: 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <button onClick={() => scrollToSection('home')} className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-amber-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">DT</span>
-            </div>
             <span className={`font-bold text-lg transition-colors ${scrolled ? 'text-stone-100' : 'text-stone-900'}`}>
-              Dharmateja
+              Dharma Teja
             </span>
           </button>
 

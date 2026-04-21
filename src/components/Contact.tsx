@@ -81,7 +81,7 @@ export default function Contact() {
               <h4 className="font-semibold text-stone-900 mb-4">Connect on Social Media</h4>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/dharmateja19"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-stone-100 text-stone-900 rounded-lg hover:bg-amber-600 hover:text-white transition-all duration-300 group"
@@ -89,7 +89,7 @@ export default function Contact() {
                   <Github size={24} />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/dharma-teja-pamarthi-834685286/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-stone-100 text-stone-900 rounded-lg hover:bg-amber-600 hover:text-white transition-all duration-300 group"

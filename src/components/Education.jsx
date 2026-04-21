@@ -84,7 +84,7 @@ export default function Education() {
                 Advanced certification validating expertise in Java 17 language features, OOP principles, and enterprise application development.
               </p>
               <a
-                href="#"
+                href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=2F03D617AB2495B08D1C6A33943B14CE05E96E6CC353DA81D1D97B80564402FF"
                 className="text-amber-600 font-semibold hover:text-amber-700 transition-colors"
               >
                 View Credential →
@@ -98,7 +98,7 @@ export default function Education() {
                 <p className="text-sm text-stone-600">Current CGPA</p>
               </div>
               <div className="bg-white p-6 rounded-lg border border-stone-200 text-center hover:shadow-lg transition-all duration-300">
-                <div className="text-3xl font-bold text-amber-600 mb-2">3+</div>
+                <div className="text-3xl font-bold text-amber-600 mb-2">3</div>
                 <p className="text-sm text-stone-600">Live Projects</p>
               </div>
             </div>

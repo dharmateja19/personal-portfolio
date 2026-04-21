@@ -12,8 +12,8 @@ export default function Projects() {
         'Responsive UI built with Tailwind CSS',
       ],
       tech: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind CSS'],
-      codeLink: '#',
-      liveLink: '#',
+      codeLink: 'https://github.com/dharmateja19/Agri-Link',
+      liveLink: 'https://agri-link-blond.vercel.app/',
       featured: true,
     },
     {
@@ -26,8 +26,8 @@ export default function Projects() {
         'In-room chat and debounced auto-save to MongoDB',
       ],
       tech: ['React.js', 'Node.js', 'Socket.IO', 'MongoDB', 'Monaco Editor'],
-      codeLink: '#',
-      liveLink: '#',
+      codeLink: 'https://github.com/dharmateja19/Code-Collab',
+      liveLink: 'https://code-collab-dusky-pi.vercel.app/',
       featured: true,
     },
     {
@@ -40,7 +40,7 @@ export default function Projects() {
         'MySQL database integration',
       ],
       tech: ['PHP', 'MySQL', 'JavaScript', 'HTML/CSS'],
-      codeLink: '#',
+      codeLink: 'https://github.com/dharmateja19/subcription_tracker',
       featured: false,
     },
   ];
@@ -117,7 +117,7 @@ export default function Projects() {
 
         <div className="text-center pt-8">
           <a
-            href="https://github.com"
+            href="https://github.com/dharmateja19?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 border-2 border-amber-600 text-amber-600 font-semibold rounded-lg hover:bg-amber-600 hover:text-white transition-colors"

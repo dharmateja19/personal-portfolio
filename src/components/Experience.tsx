@@ -60,7 +60,7 @@ export default function Experience() {
                 </ul>
 
                 <a
-                  href="#"
+                  href="{https://drive.google.com/file/d/1uaExgDwm62iRPtE5pVhufbgZA8rKGKah/view?usp=sharing"
                   className="inline-block mt-6 text-amber-600 font-semibold hover:text-amber-700 transition-colors"
                 >
                   View Certificate →

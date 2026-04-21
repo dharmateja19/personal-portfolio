@@ -12,10 +12,10 @@ export default function Footer() {
           {/* About */}
           <div className="space-y-4">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-amber-600 rounded-lg flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-amber-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold">DT</span>
-              </div>
-              <span className="font-bold text-lg text-stone-100">Dharmateja</span>
+              </div> */}
+              <span className="font-bold text-lg text-stone-100">Dharma Teja</span>
             </div>
             <p className="text-stone-400 leading-relaxed">
               A passionate full-stack developer building innovative web applications with modern technology and clean code practices.
@@ -72,9 +72,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-stone-800 pt-8 flex justify-between items-center">
+        {/* <div className="border-t border-stone-800 pt-8 flex justify-between items-center">
           <p className="text-stone-400 flex items-center gap-2">
-            Made with <Heart size={16} className="text-amber-600" /> by Dharmateja
+            Made by Dharma Teja
           </p>
           <button
             onClick={scrollToTop}
@@ -82,7 +82,7 @@ export default function Footer() {
           >
             <ArrowUp size={20} />
           </button>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

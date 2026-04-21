@@ -25,7 +25,7 @@ export default function Skills() {
     {
       icon: GitBranch,
       title: 'Tools & Version Control',
-      skills: ['Git', 'GitHub', 'VS Code', 'Linux', 'NPM', 'Webpack'],
+      skills: ['Git', 'GitHub', 'VS Code', 'Postman'],
     },
     {
       icon: Code,
