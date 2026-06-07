@@ -94,7 +94,7 @@ export default function Education() {
             {/* Additional Badge */}
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white p-6 rounded-lg border border-stone-200 text-center hover:shadow-lg transition-all duration-300">
-                <div className="text-3xl font-bold text-amber-600 mb-2">9.42</div>
+                <div className="text-3xl font-bold text-amber-600 mb-2">9.48</div>
                 <p className="text-sm text-stone-600">Current CGPA</p>
               </div>
               <div className="bg-white p-6 rounded-lg border border-stone-200 text-center hover:shadow-lg transition-all duration-300">

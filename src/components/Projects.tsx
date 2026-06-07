@@ -43,8 +43,24 @@ export default function Projects() {
 				"JWT",
 				"OTP Verification",
 			],
-			codeLink: "https://github.com/dharmateja19/Community_Problem_Solver", 
-			liveLink: "https://community-problem-solver-puce.vercel.app/", 
+			codeLink: "https://github.com/dharmateja19/Community_Problem_Solver",
+			liveLink: "https://community-problem-solver-puce.vercel.app/",
+			featured: true,
+		},
+
+		{
+			title: "CodeCollab: Real-Time Collaborative Coding",
+			description:
+				"A full-stack collaborative coding platform enabling multiple users to join secure rooms and edit code simultaneously.",
+			highlights: [
+				"Real-time code synchronization via Socket.IO",
+				"JWT-secured REST APIs and WebSocket authentication",
+				"Monaco Editor integration with live presence updates",
+				"In-room chat and debounced auto-save to MongoDB",
+			],
+			tech: ["React.js", "Node.js", "Socket.IO", "MongoDB", "Monaco Editor"],
+			codeLink: "https://github.com/dharmateja19/Code-Collab",
+			liveLink: "https://code-collab-dusky-pi.vercel.app/",
 			featured: true,
 		},
 
