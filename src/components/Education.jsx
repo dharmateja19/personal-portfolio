@@ -34,7 +34,7 @@ export default function Education() {
               <div className="space-y-3 mb-6">
                 <div>
                   <p className="text-stone-600 font-semibold">Specialization: AI & Machine Learning</p>
-                  <p className="text-lg text-amber-600 font-bold">CGPA: 9.42/10</p>
+                  <p className="text-lg text-amber-600 font-bold">CGPA: 9.48/10</p>
                 </div>
               </div>
 
