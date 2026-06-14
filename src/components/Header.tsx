@@ -6,8 +6,18 @@ interface HeaderProps {
   setMobileMenuOpen: (open: boolean) => void;
 }
 
-export default function Header({ scrolled, mobileMenuOpen, setMobileMenuOpen }: HeaderProps) {
-  const navItems = ['Home', 'Experience', 'Projects', 'Skills', 'Education', 'Contact'];
+export default function Header({
+  mobileMenuOpen,
+  setMobileMenuOpen,
+}: HeaderProps) {
+  const navItems = [
+    'Home',
+    'Skills',
+    'Projects',
+    'Education',
+    'Experience',
+    'Contact',
+  ];
 
   const scrollToSection = (section: string) => {
     const element = document.getElementById(section.toLowerCase());
@@ -16,17 +26,15 @@ export default function Header({ scrolled, mobileMenuOpen, setMobileMenuOpen }: 
   };
 
   return (
-    <header
-      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-stone-900 shadow-lg'
-          : 'bg-transparent'
-      }`}
-    >
+    <header className="fixed w-full top-0 z-50 bg-stone-900/90 backdrop-blur-md shadow-lg">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <button onClick={() => scrollToSection('home')} className="flex items-center space-x-2 group">
-            <span className={`font-bold text-lg transition-colors ${scrolled ? 'text-stone-100' : 'text-stone-900'}`}>
+          {/* Logo */}
+          <button
+            onClick={() => scrollToSection('home')}
+            className="flex items-center space-x-2"
+          >
+            <span className="font-bold text-lg text-white">
               Dharma Teja
             </span>
           </button>
@@ -37,11 +45,7 @@ export default function Header({ scrolled, mobileMenuOpen, setMobileMenuOpen }: 
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                  scrolled
-                    ? 'text-stone-100 hover:bg-stone-700'
-                    : 'text-stone-700 hover:bg-stone-100'
-                }`}
+                className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-stone-700 transition-colors"
               >
                 {item}
               </button>
@@ -51,11 +55,7 @@ export default function Header({ scrolled, mobileMenuOpen, setMobileMenuOpen }: 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className={`md:hidden p-2 rounded-lg transition-colors ${
-              scrolled
-                ? 'text-stone-100 hover:bg-stone-700'
-                : 'text-stone-900 hover:bg-stone-100'
-            }`}
+            className="md:hidden p-2 rounded-lg text-white hover:bg-stone-700 transition-colors"
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -68,7 +68,7 @@ export default function Header({ scrolled, mobileMenuOpen, setMobileMenuOpen }: 
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
-                className="block w-full text-left px-4 py-2 rounded-md text-stone-100 hover:bg-stone-700 transition-colors"
+                className="block w-full text-left px-4 py-2 rounded-md text-white hover:bg-stone-700 transition-colors"
               >
                 {item}
               </button>

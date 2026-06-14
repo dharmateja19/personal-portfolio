@@ -60,7 +60,7 @@ export default function Contact() {
                     href="tel:+919346312961"
                     className="text-amber-600 hover:text-amber-700 transition-colors"
                   >
-                    +91 9346 312961
+                    +91 93463 12961
                   </a>
                 </div>
               </div>
@@ -120,7 +120,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-100 transition-colors"
-                  placeholder="John Doe"
+                  placeholder="Name"
                 />
               </div>
 
@@ -161,7 +161,7 @@ export default function Contact() {
                 <textarea
                   id="message"
                   required
-                  rows={5}
+                  rows={2}
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   className="w-full px-4 py-3 border border-stone-300 rounded-lg focus:outline-none focus:border-amber-600 focus:ring-2 focus:ring-amber-100 transition-colors resize-none"

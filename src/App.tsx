@@ -26,10 +26,10 @@ function App() {
       <Header scrolled={scrolled} mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
       <main>
         <Hero />
-        <Experience />
-        <Projects />
         <Skills />
+        <Projects />
         <Education />
+        <Experience />
         <Contact />
       </main>
       <Footer />
